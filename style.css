@@ -1,0 +1,65 @@
+body {
+  background: #6f0000;
+
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);
+  background: linear-gradient(to right, #6f0000, #200122);
+}
+
+h1 {
+  width: 190px;
+  position: relative;
+  margin: 30px auto;
+  color: rgb(164, 97, 16);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.search-container {
+  /* TODO */
+  width: 200px;
+  position: relative;
+  margin: 50px auto;
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+  width: 200px;
+}
+.search-container input {
+  /* TODO */
+  position: absolute;
+  font-weight: bold;
+}
+input:focus {
+  /* TODO */
+  outline: rgba(218, 221, 17, 0.873) inset;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+  /* TODO */
+  list-style-type: none;
+  position: absolute;
+  margin-left: -40px;
+  max-height: 300px;
+  margin-top: 29px;
+  overflow: auto;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+ul li {
+  /* TODO */
+  width: 210px;
+  background-color: #65101035;
+  margin-left: 0;
+  color: rgb(153, 153, 153);
+  font-size: 10px;
+  font-weight: bold;
+}
+ul li:hover {
+  /* TODO */
+  background-color: rgba(146, 50, 50, 0.8);
+  cursor: pointer;
+}
