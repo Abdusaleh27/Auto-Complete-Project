@@ -33,7 +33,7 @@ input:focus {
   /* TODO */
   outline: rgba(218, 221, 17, 0.873) inset;
 }
-
+/* making the scrollbar for the suggestion list invisible */
 ul::-webkit-scrollbar {
   display: none;
 }
